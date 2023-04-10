@@ -9,16 +9,10 @@
 }
 
 ul {
-    font-size: larger;
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
   }
-
-img {
-    max-width: 100vmax;
-    max-height: fit-content;
-}
 
 body, html {
     height: 100%;
@@ -35,12 +29,18 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    font-size: 100%;
   }
-
-h1 {
-    font-size: xx-large;
-}
-
-h2 {
-    font-size: x-large;
-}
+  
+  h1 {
+    font-size: 4em;
+  }
+  
+  h2 {
+    font-size: 3em;
+  }
+  
+  ul {
+    font-size: 2em;
+  }
