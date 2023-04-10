@@ -1,0 +1,46 @@
+* {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;*/
+}
+
+ul {
+    font-size: larger;
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+img {
+    max-width: 100vmax;
+    max-height: fit-content;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+body { 
+    /* The image used */
+    background-image: url("images/20211016_174920_2.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+}
